@@ -1,26 +1,26 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-platform: ios, '8.0'
+platform :ios, '8.0'
 use_frameworks!
 inhibit_all_warnings!
 
 target 'ReactiveCocoaDemo' do
-pod 'AFNetworking'
-pod 'Masonry'
-pod 'FMDB'
-pod 'SDWebImage'
-pod 'ReactiveObjC'
-pod 'KVOController'
-pod 'YYKit'
-pod 'MJExtension'
-pod 'MJRefresh'
-pod "MBProgressHUD"
+    pod 'AFNetworking'
+    pod 'Masonry'
+    pod 'FMDB'
+    pod 'SDWebImage'
+    pod 'ReactiveObjC'
+    pod 'KVOController'
+    pod 'YYKit'
+    pod 'MJExtension'
+    pod 'MJRefresh'
+    pod 'MBProgressHUD'
 
-target 'ReactiveCocoaDemoTests' do
-end
+    target 'ReactiveCocoaDemoTests' do
+    end
 
-target 'ReactiveCocoaDemoUITests' do
-end
+    target 'ReactiveCocoaDemoUITests' do
+    end
 
 end
 
