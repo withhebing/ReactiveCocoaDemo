@@ -21,7 +21,9 @@
     // Override point for customization after application launch.
 
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = [[ICENavigationController alloc] initWithRootViewController:[[ICELoginViewController alloc] init]];
+    ICELoginViewModel *viewModel = [[ICELoginViewModel alloc] initWithParams:@{ICEViewModelTitleKey : @"login"}];
+    ICELoginViewController *viewController = [[ICELoginViewController alloc] initWithViewModel:viewModel];
+    self.window.rootViewController = [[ICENavigationController alloc] initWithRootViewController:viewController];
     [self.window makeKeyAndVisible];
 
     return YES;

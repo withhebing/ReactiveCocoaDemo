@@ -7,6 +7,7 @@
 //
 
 #import "ICEViewController.h"
+#import "ICELoginViewModel.h"
 
 @interface ICELoginViewController : ICEViewController
 

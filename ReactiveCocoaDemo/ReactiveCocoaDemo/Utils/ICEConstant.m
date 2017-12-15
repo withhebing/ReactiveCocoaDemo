@@ -46,6 +46,12 @@ NSString *const ICEViewModelUtilKey = @"ICEViewModelUtilKey";
 NSString *const ICEViewModelRequestKey = @"ICEViewModelRequestKey";
 
 
+
+NSString *ICE_USER_ID = @"萌新小透明";
+NSString *ICE_USER_NICK = @"123";
+NSString *ICE_USER_AVATAR = @"https://avatars3.githubusercontent.com/u/16841724?s=400&u=01ba82d1261e32cf4ce9944d3516678c3a50d62c&v=4";
+
+
 @implementation ICEConstant
 
 @end

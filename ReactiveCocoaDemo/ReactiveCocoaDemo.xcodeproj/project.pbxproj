@@ -15,6 +15,8 @@
 		261D0FED1FDE7FA700487F17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 261D0FEC1FDE7FA700487F17 /* main.m */; };
 		261D0FF71FDE7FA800487F17 /* ReactiveCocoaDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 261D0FF61FDE7FA800487F17 /* ReactiveCocoaDemoTests.m */; };
 		261D10021FDE7FA800487F17 /* ReactiveCocoaDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 261D10011FDE7FA800487F17 /* ReactiveCocoaDemoUITests.m */; };
+		261F69F11FE3B19400EB00C3 /* ICETableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 261F69F01FE3B19400EB00C3 /* ICETableViewModel.m */; };
+		261F69F41FE3BF4C00EB00C3 /* ICEModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 261F69F31FE3BF4C00EB00C3 /* ICEModel.m */; };
 		262F8C781FDFB0CE00D716BF /* SUGoodsData_17.data in Resources */ = {isa = PBXBuildFile; fileRef = 262F8C631FDFB0CE00D716BF /* SUGoodsData_17.data */; };
 		262F8C791FDFB0CE00D716BF /* SUGoodsData_5.data in Resources */ = {isa = PBXBuildFile; fileRef = 262F8C641FDFB0CE00D716BF /* SUGoodsData_5.data */; };
 		262F8C7A1FDFB0CE00D716BF /* SUGoodsData_9.data in Resources */ = {isa = PBXBuildFile; fileRef = 262F8C651FDFB0CE00D716BF /* SUGoodsData_9.data */; };
@@ -44,8 +46,14 @@
 		262F8CE41FDFE0CB00D716BF /* ICEViewControllerAnimatedTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 262F8CE31FDFE0CB00D716BF /* ICEViewControllerAnimatedTransition.m */; };
 		262F8CE71FDFE12F00D716BF /* ICEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 262F8CE61FDFE12F00D716BF /* ICEViewController.m */; };
 		262F8CED1FDFEE1900D716BF /* UIBarButtonItem+ICEExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 262F8CEC1FDFEE1900D716BF /* UIBarButtonItem+ICEExtension.m */; };
+		264D9B151FE22F1E008F8B7E /* ICEGoodsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 264D9B141FE22F1E008F8B7E /* ICEGoodsViewModel.m */; };
+		264D9B181FE23332008F8B7E /* ICEProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 264D9B171FE23332008F8B7E /* ICEProgressHUD.m */; };
+		264D9B1E1FE2510C008F8B7E /* NSError+ICEExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 264D9B1D1FE2510C008F8B7E /* NSError+ICEExtension.m */; };
+		264D9B211FE252E0008F8B7E /* UIFont+ICEExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 264D9B201FE252E0008F8B7E /* UIFont+ICEExtension.m */; };
+		264D9B2E1FE25E56008F8B7E /* NSString+ICEValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 264D9B2D1FE25E56008F8B7E /* NSString+ICEValidation.m */; };
 		2654FD0D1FE0CBDB00E76731 /* ICELoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2654FD0C1FE0CBDB00E76731 /* ICELoginViewController.m */; };
 		2654FD101FE0CC3300E76731 /* ICEGoodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2654FD0F1FE0CC3300E76731 /* ICEGoodsViewController.m */; };
+		2673D9211FE1274B008A4F30 /* ICELoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2673D9201FE1274B008A4F30 /* ICELoginViewModel.m */; };
 		9D256B04417F60B73B06AB48 /* Pods_ReactiveCocoaDemo_ReactiveCocoaDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 610B44158436DCF52E7BCF14 /* Pods_ReactiveCocoaDemo_ReactiveCocoaDemoTests.framework */; };
 		BD97B1F077182992A96D49F0 /* Pods_ReactiveCocoaDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9206507A885BC2C83D4C08FB /* Pods_ReactiveCocoaDemo.framework */; };
 		BF5AA7285AAA1DD080395B7E /* Pods_ReactiveCocoaDemo_ReactiveCocoaDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BAE6F6EE5AD71DDE6B92F5B /* Pods_ReactiveCocoaDemo_ReactiveCocoaDemoUITests.framework */; };
@@ -86,6 +94,10 @@
 		261D0FFD1FDE7FA800487F17 /* ReactiveCocoaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveCocoaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		261D10011FDE7FA800487F17 /* ReactiveCocoaDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaDemoUITests.m; sourceTree = "<group>"; };
 		261D10031FDE7FA800487F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		261F69EF1FE3B19400EB00C3 /* ICETableViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICETableViewModel.h; sourceTree = "<group>"; };
+		261F69F01FE3B19400EB00C3 /* ICETableViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICETableViewModel.m; sourceTree = "<group>"; };
+		261F69F21FE3BF4C00EB00C3 /* ICEModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEModel.h; sourceTree = "<group>"; };
+		261F69F31FE3BF4C00EB00C3 /* ICEModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEModel.m; sourceTree = "<group>"; };
 		262F8C631FDFB0CE00D716BF /* SUGoodsData_17.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SUGoodsData_17.data; sourceTree = "<group>"; };
 		262F8C641FDFB0CE00D716BF /* SUGoodsData_5.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SUGoodsData_5.data; sourceTree = "<group>"; };
 		262F8C651FDFB0CE00D716BF /* SUGoodsData_9.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SUGoodsData_9.data; sourceTree = "<group>"; };
@@ -126,10 +138,23 @@
 		262F8CE61FDFE12F00D716BF /* ICEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEViewController.m; sourceTree = "<group>"; };
 		262F8CEB1FDFEE1900D716BF /* UIBarButtonItem+ICEExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ICEExtension.h"; sourceTree = "<group>"; };
 		262F8CEC1FDFEE1900D716BF /* UIBarButtonItem+ICEExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ICEExtension.m"; sourceTree = "<group>"; };
+		264D9B131FE22F1E008F8B7E /* ICEGoodsViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEGoodsViewModel.h; sourceTree = "<group>"; };
+		264D9B141FE22F1E008F8B7E /* ICEGoodsViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEGoodsViewModel.m; sourceTree = "<group>"; };
+		264D9B161FE23332008F8B7E /* ICEProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEProgressHUD.h; sourceTree = "<group>"; };
+		264D9B171FE23332008F8B7E /* ICEProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEProgressHUD.m; sourceTree = "<group>"; };
+		264D9B1C1FE2510C008F8B7E /* NSError+ICEExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSError+ICEExtension.h"; sourceTree = "<group>"; };
+		264D9B1D1FE2510C008F8B7E /* NSError+ICEExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSError+ICEExtension.m"; sourceTree = "<group>"; };
+		264D9B1F1FE252E0008F8B7E /* UIFont+ICEExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+ICEExtension.h"; sourceTree = "<group>"; };
+		264D9B201FE252E0008F8B7E /* UIFont+ICEExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+ICEExtension.m"; sourceTree = "<group>"; };
+		264D9B2C1FE25E56008F8B7E /* NSString+ICEValidation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ICEValidation.h"; sourceTree = "<group>"; };
+		264D9B2D1FE25E56008F8B7E /* NSString+ICEValidation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ICEValidation.m"; sourceTree = "<group>"; };
+		264D9B2F1FE27B57008F8B7E /* ICEInline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEInline.h; sourceTree = "<group>"; };
 		2654FD0B1FE0CBDB00E76731 /* ICELoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICELoginViewController.h; sourceTree = "<group>"; };
 		2654FD0C1FE0CBDB00E76731 /* ICELoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICELoginViewController.m; sourceTree = "<group>"; };
 		2654FD0E1FE0CC3300E76731 /* ICEGoodsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEGoodsViewController.h; sourceTree = "<group>"; };
 		2654FD0F1FE0CC3300E76731 /* ICEGoodsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEGoodsViewController.m; sourceTree = "<group>"; };
+		2673D91F1FE1274B008A4F30 /* ICELoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICELoginViewModel.h; sourceTree = "<group>"; };
+		2673D9201FE1274B008A4F30 /* ICELoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICELoginViewModel.m; sourceTree = "<group>"; };
 		5BAE6F6EE5AD71DDE6B92F5B /* Pods_ReactiveCocoaDemo_ReactiveCocoaDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveCocoaDemo_ReactiveCocoaDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		610B44158436DCF52E7BCF14 /* Pods_ReactiveCocoaDemo_ReactiveCocoaDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveCocoaDemo_ReactiveCocoaDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A8760AFBB2AF320E1F34F7C /* Pods-ReactiveCocoaDemo-ReactiveCocoaDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaDemo-ReactiveCocoaDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaDemo-ReactiveCocoaDemoUITests/Pods-ReactiveCocoaDemo-ReactiveCocoaDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -245,10 +270,19 @@
 			children = (
 				262F8C921FDFB1B400D716BF /* ICEConstant.h */,
 				262F8C931FDFB1B400D716BF /* ICEConstant.m */,
+				264D9B2F1FE27B57008F8B7E /* ICEInline.h */,
 				262F8CD71FDFDABE00D716BF /* UINavigationItem+ICEBackBarButtonItem.h */,
 				262F8CD81FDFDABE00D716BF /* UINavigationItem+ICEBackBarButtonItem.m */,
 				262F8CEB1FDFEE1900D716BF /* UIBarButtonItem+ICEExtension.h */,
 				262F8CEC1FDFEE1900D716BF /* UIBarButtonItem+ICEExtension.m */,
+				264D9B1F1FE252E0008F8B7E /* UIFont+ICEExtension.h */,
+				264D9B201FE252E0008F8B7E /* UIFont+ICEExtension.m */,
+				264D9B1C1FE2510C008F8B7E /* NSError+ICEExtension.h */,
+				264D9B1D1FE2510C008F8B7E /* NSError+ICEExtension.m */,
+				264D9B161FE23332008F8B7E /* ICEProgressHUD.h */,
+				264D9B171FE23332008F8B7E /* ICEProgressHUD.m */,
+				264D9B2C1FE25E56008F8B7E /* NSString+ICEValidation.h */,
+				264D9B2D1FE25E56008F8B7E /* NSString+ICEValidation.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -257,6 +291,10 @@
 			isa = PBXGroup;
 			children = (
 				262F8C5A1FDFB04700D716BF /* BaseClass */,
+				2673D91F1FE1274B008A4F30 /* ICELoginViewModel.h */,
+				2673D9201FE1274B008A4F30 /* ICELoginViewModel.m */,
+				264D9B131FE22F1E008F8B7E /* ICEGoodsViewModel.h */,
+				264D9B141FE22F1E008F8B7E /* ICEGoodsViewModel.m */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -268,6 +306,8 @@
 				262F8CE01FDFDEB900D716BF /* ICEViewModel.m */,
 				262F8CDD1FDFDDEA00D716BF /* ICENavigationProtocol.h */,
 				262F8CDE1FDFDE4500D716BF /* ICEViewModelServices.h */,
+				261F69EF1FE3B19400EB00C3 /* ICETableViewModel.h */,
+				261F69F01FE3B19400EB00C3 /* ICETableViewModel.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -310,6 +350,8 @@
 		262F8C5E1FDFB04700D716BF /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				261F69F21FE3BF4C00EB00C3 /* ICEModel.h */,
+				261F69F31FE3BF4C00EB00C3 /* ICEModel.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -573,6 +615,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoaDemo/Pods-ReactiveCocoaDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Colours/Colours.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/KVOController/KVOController.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
@@ -586,6 +629,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Colours.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KVOController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
@@ -639,6 +683,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoaDemo-ReactiveCocoaDemoTests/Pods-ReactiveCocoaDemo-ReactiveCocoaDemoTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Colours/Colours.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/KVOController/KVOController.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
@@ -652,6 +697,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Colours.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KVOController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
@@ -693,6 +739,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoaDemo-ReactiveCocoaDemoUITests/Pods-ReactiveCocoaDemo-ReactiveCocoaDemoUITests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Colours/Colours.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/KVOController/KVOController.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
@@ -706,6 +753,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Colours.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KVOController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
@@ -763,15 +811,23 @@
 			files = (
 				2654FD0D1FE0CBDB00E76731 /* ICELoginViewController.m in Sources */,
 				262F8CED1FDFEE1900D716BF /* UIBarButtonItem+ICEExtension.m in Sources */,
+				264D9B2E1FE25E56008F8B7E /* NSString+ICEValidation.m in Sources */,
+				264D9B181FE23332008F8B7E /* ICEProgressHUD.m in Sources */,
+				264D9B1E1FE2510C008F8B7E /* NSError+ICEExtension.m in Sources */,
+				264D9B211FE252E0008F8B7E /* UIFont+ICEExtension.m in Sources */,
 				262F8CDC1FDFDD9F00D716BF /* ICENavigationControllerStack.m in Sources */,
 				261D0FE21FDE7FA700487F17 /* ViewController.m in Sources */,
+				261F69F41FE3BF4C00EB00C3 /* ICEModel.m in Sources */,
+				2673D9211FE1274B008A4F30 /* ICELoginViewModel.m in Sources */,
 				262F8CD61FDFC76500D716BF /* ICENavigationController.m in Sources */,
 				261D0FED1FDE7FA700487F17 /* main.m in Sources */,
+				261F69F11FE3B19400EB00C3 /* ICETableViewModel.m in Sources */,
 				2654FD101FE0CC3300E76731 /* ICEGoodsViewController.m in Sources */,
 				262F8CE71FDFE12F00D716BF /* ICEViewController.m in Sources */,
 				262F8CE41FDFE0CB00D716BF /* ICEViewControllerAnimatedTransition.m in Sources */,
 				261D0FDF1FDE7FA700487F17 /* AppDelegate.m in Sources */,
 				262F8CD91FDFDABE00D716BF /* UINavigationItem+ICEBackBarButtonItem.m in Sources */,
+				264D9B151FE22F1E008F8B7E /* ICEGoodsViewModel.m in Sources */,
 				262F8CE11FDFDEB900D716BF /* ICEViewModel.m in Sources */,
 				262F8C941FDFB1B400D716BF /* ICEConstant.m in Sources */,
 			);
@@ -937,6 +993,7 @@
 			baseConfigurationReference = ABB9D5FC260E213605C15501 /* Pods-ReactiveCocoaDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B58GW3GPZ4;
 				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/ReactiveCocoaDemoPrefixHeader.pch";
@@ -954,6 +1011,7 @@
 			baseConfigurationReference = B02D0C01614E4FD6EB8CD442 /* Pods-ReactiveCocoaDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B58GW3GPZ4;
 				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/ReactiveCocoaDemoPrefixHeader.pch";

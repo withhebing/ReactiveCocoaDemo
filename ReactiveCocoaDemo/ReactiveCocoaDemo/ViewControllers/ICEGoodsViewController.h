@@ -7,6 +7,7 @@
 //
 
 #import "ICEViewController.h"
+#import "ICEGoodsViewModel.h"
 
 @interface ICEGoodsViewController : ICEViewController
 

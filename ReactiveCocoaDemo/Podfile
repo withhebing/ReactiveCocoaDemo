@@ -15,6 +15,7 @@ target 'ReactiveCocoaDemo' do
     pod 'MJExtension'
     pod 'MJRefresh'
     pod 'MBProgressHUD'
+    pod 'Colours'
 
     target 'ReactiveCocoaDemoTests' do
     end

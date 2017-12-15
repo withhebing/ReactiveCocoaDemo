@@ -21,15 +21,14 @@
 #endif
 
 #ifdef DEBUG
-// 格式: [时间] [方法名] [行数] [输出内容]
-#define ICELog(format, ...) printf("\n[%s] %s [第%zd行] 💕 %s\n", __TIME__, __FUNCTION__, __LINE__, [[NSString stringWithFormat:format, ##__VA_ARGS__] UTF8String]);
+#define ICELog(format, ...) printf("\n[%s] %s [第%zd行] 💕 %s\n", __TIME__, __FUNCTION__, __LINE__, [[NSString stringWithFormat:format, ##__VA_ARGS__] UTF8String])      // 格式: [时间] [方法名] [行数] [输出内容]
 #else
 #define ICELog(format, ...)
 #endif
 
 #define ICELogError(error) NSLog(@"Error: %@", error)
 #define ICELogFunc NSLog(@"%s", __func__)
-#define ICEDealloc NSLog(@"\n =========+++ %@  销毁了 +++======== \n",[self class])
+#define ICELogDealloc NSLog(@"\n =========+++ %@  销毁了 +++======== \n",[self class])
 
 ///------
 /// Block
@@ -126,6 +125,9 @@ typedef id   (^IDBlock_id)  (id);
 
 
 
+#define ICEPingFangSCRegularFont(font)  [UIFont fontWithName:@"PingFangSC-Regular" size:font]
+#define ICEPingFangSCMediumFont(font)   [UIFont fontWithName:@"PingFangSC-Medium" size:font]
+#define ICEPingFangSCSemiblodFont(font) [UIFont fontWithName:@"PingFangSC-Semibold" size:font]
 
 
 
@@ -151,6 +153,8 @@ typedef id   (^IDBlock_id)  (id);
 // KVO获取监听对象的属性 有自动提示
 // 宏里面的#，会自动把后面的参数变成c语言的字符串
 #define ICEKeyPath(objc,keyPath) @(((void)objc.keyPath ,#keyPath))
+
+#define ICEIOSVersion [[[UIDevice currentDevice] systemVersion] floatValue]
 
 
 // 是否为空对象
@@ -210,7 +214,6 @@ _Pragma("clang diagnostic pop")\
 
 /// 全局细下滑线颜色 以及分割线颜色
 #define ICEGlobalBottomLineColor     [UIColor colorFromHexString:@"#D9D9D9"]
-
 /// 全局粉红色
 #define ICEGlobalPinkColor [UIColor colorFromHexString:@"#FE8491"]
 /// 全局浅粉红色
@@ -225,6 +228,8 @@ _Pragma("clang diagnostic pop")\
 #define ICEGlobalBlackTextColor      [UIColor colorFromHexString:@"#3C3E44"]
 /// 全局浅黑色字体
 #define ICEGlobalShadowBlackTextColor      [UIColor colorFromHexString:@"#56585f"]
+
+
 
 
 /// 左、右距离屏幕的间距 12
@@ -261,6 +266,11 @@ FOUNDATION_EXTERN NSString *const ICEViewModelTitleKey;
 FOUNDATION_EXTERN NSString *const ICEViewModelUtilKey;
 /// 传递webView Request的key：例如 webView request...
 FOUNDATION_EXTERN NSString *const ICEViewModelRequestKey;
+
+// tmp
+FOUNDATION_EXTERN NSString *ICE_USER_ID;
+FOUNDATION_EXTERN NSString *ICE_USER_NICK;
+FOUNDATION_EXTERN NSString *ICE_USER_AVATAR;
 
 @interface ICEConstant : NSObject
 
