@@ -11,11 +11,22 @@ target 'ReactiveCocoaDemo' do
     pod 'SDWebImage'
     pod 'ReactiveObjC'
     pod 'KVOController'
-    pod 'YYKit'
     pod 'MJExtension'
     pod 'MJRefresh'
     pod 'MBProgressHUD'
     pod 'Colours'
+
+#    pod 'YYKit'
+    pod 'YYCategories'
+    pod 'YYText'
+    pod 'YYModel'
+    pod 'YYImage'
+    pod 'YYImage/WebP'
+    pod 'YYCache'
+    pod 'YYWebImage'
+    pod 'YYKeyboardManager'
+    pod 'YYDispatchQueuePool'
+    pod 'YYAsyncLayer'
 
     target 'ReactiveCocoaDemoTests' do
     end

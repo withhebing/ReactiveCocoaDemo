@@ -10,7 +10,7 @@
 
 @interface NSString (ICEValidation)
 
-// 检测字符串是否包含中文字符
+/// 检测字符串是否包含中文字符
 + (BOOL)ice_isContainsChineseCharacters:(NSString *)string;
 
 /// 整型

@@ -17,6 +17,13 @@
 		261D10021FDE7FA800487F17 /* ReactiveCocoaDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 261D10011FDE7FA800487F17 /* ReactiveCocoaDemoUITests.m */; };
 		261F69F11FE3B19400EB00C3 /* ICETableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 261F69F01FE3B19400EB00C3 /* ICETableViewModel.m */; };
 		261F69F41FE3BF4C00EB00C3 /* ICEModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 261F69F31FE3BF4C00EB00C3 /* ICEModel.m */; };
+		261F69F71FE3C7BF00EB00C3 /* ICEBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 261F69F61FE3C7BF00EB00C3 /* ICEBanner.m */; };
+		261F69FA1FE3C80000EB00C3 /* ICEGoods.m in Sources */ = {isa = PBXBuildFile; fileRef = 261F69F91FE3C80000EB00C3 /* ICEGoods.m */; };
+		261F69FD1FE3C81200EB00C3 /* ICEGoodsImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 261F69FC1FE3C81200EB00C3 /* ICEGoodsImage.m */; };
+		261F6A001FE3CECC00EB00C3 /* ICEGoodsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 261F69FF1FE3CECC00EB00C3 /* ICEGoodsData.m */; };
+		261F6A031FE3D93C00EB00C3 /* ICEGoodsItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 261F6A021FE3D93C00EB00C3 /* ICEGoodsItemViewModel.m */; };
+		261F6A061FE3DBBA00EB00C3 /* ICEGoods+ICEAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 261F6A051FE3DBBA00EB00C3 /* ICEGoods+ICEAttributedString.m */; };
+		262707871FEDFCB400E36A7E /* ICETableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 262707861FEDFCB400E36A7E /* ICETableViewController.m */; };
 		262F8C781FDFB0CE00D716BF /* SUGoodsData_17.data in Resources */ = {isa = PBXBuildFile; fileRef = 262F8C631FDFB0CE00D716BF /* SUGoodsData_17.data */; };
 		262F8C791FDFB0CE00D716BF /* SUGoodsData_5.data in Resources */ = {isa = PBXBuildFile; fileRef = 262F8C641FDFB0CE00D716BF /* SUGoodsData_5.data */; };
 		262F8C7A1FDFB0CE00D716BF /* SUGoodsData_9.data in Resources */ = {isa = PBXBuildFile; fileRef = 262F8C651FDFB0CE00D716BF /* SUGoodsData_9.data */; };
@@ -46,6 +53,8 @@
 		262F8CE41FDFE0CB00D716BF /* ICEViewControllerAnimatedTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 262F8CE31FDFE0CB00D716BF /* ICEViewControllerAnimatedTransition.m */; };
 		262F8CE71FDFE12F00D716BF /* ICEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 262F8CE61FDFE12F00D716BF /* ICEViewController.m */; };
 		262F8CED1FDFEE1900D716BF /* UIBarButtonItem+ICEExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 262F8CEC1FDFEE1900D716BF /* UIBarButtonItem+ICEExtension.m */; };
+		26493B8D1FEA590000BAB564 /* NSDate+ICEExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 26493B8C1FEA590000BAB564 /* NSDate+ICEExtension.m */; };
+		26493B901FEA592600BAB564 /* NSDateFormatter+ICEExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 26493B8F1FEA592600BAB564 /* NSDateFormatter+ICEExtension.m */; };
 		264D9B151FE22F1E008F8B7E /* ICEGoodsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 264D9B141FE22F1E008F8B7E /* ICEGoodsViewModel.m */; };
 		264D9B181FE23332008F8B7E /* ICEProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 264D9B171FE23332008F8B7E /* ICEProgressHUD.m */; };
 		264D9B1E1FE2510C008F8B7E /* NSError+ICEExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 264D9B1D1FE2510C008F8B7E /* NSError+ICEExtension.m */; };
@@ -54,6 +63,9 @@
 		2654FD0D1FE0CBDB00E76731 /* ICELoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2654FD0C1FE0CBDB00E76731 /* ICELoginViewController.m */; };
 		2654FD101FE0CC3300E76731 /* ICEGoodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2654FD0F1FE0CC3300E76731 /* ICEGoodsViewController.m */; };
 		2673D9211FE1274B008A4F30 /* ICELoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2673D9201FE1274B008A4F30 /* ICELoginViewModel.m */; };
+		268D58AC1FE91F5800E1C7E0 /* ICESearchViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 268D58AB1FE91F5800E1C7E0 /* ICESearchViewModel.m */; };
+		26A85CDF1FEB99C400D33D6F /* NSAttributedString+ICESize.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A85CDE1FEB99C400D33D6F /* NSAttributedString+ICESize.m */; };
+		26A85CE21FEB9FEB00D33D6F /* NSString+ICESize.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A85CE11FEB9FEB00D33D6F /* NSString+ICESize.m */; };
 		9D256B04417F60B73B06AB48 /* Pods_ReactiveCocoaDemo_ReactiveCocoaDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 610B44158436DCF52E7BCF14 /* Pods_ReactiveCocoaDemo_ReactiveCocoaDemoTests.framework */; };
 		BD97B1F077182992A96D49F0 /* Pods_ReactiveCocoaDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9206507A885BC2C83D4C08FB /* Pods_ReactiveCocoaDemo.framework */; };
 		BF5AA7285AAA1DD080395B7E /* Pods_ReactiveCocoaDemo_ReactiveCocoaDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BAE6F6EE5AD71DDE6B92F5B /* Pods_ReactiveCocoaDemo_ReactiveCocoaDemoUITests.framework */; };
@@ -98,6 +110,20 @@
 		261F69F01FE3B19400EB00C3 /* ICETableViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICETableViewModel.m; sourceTree = "<group>"; };
 		261F69F21FE3BF4C00EB00C3 /* ICEModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEModel.h; sourceTree = "<group>"; };
 		261F69F31FE3BF4C00EB00C3 /* ICEModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEModel.m; sourceTree = "<group>"; };
+		261F69F51FE3C7BF00EB00C3 /* ICEBanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEBanner.h; sourceTree = "<group>"; };
+		261F69F61FE3C7BF00EB00C3 /* ICEBanner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEBanner.m; sourceTree = "<group>"; };
+		261F69F81FE3C80000EB00C3 /* ICEGoods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEGoods.h; sourceTree = "<group>"; };
+		261F69F91FE3C80000EB00C3 /* ICEGoods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEGoods.m; sourceTree = "<group>"; };
+		261F69FB1FE3C81200EB00C3 /* ICEGoodsImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEGoodsImage.h; sourceTree = "<group>"; };
+		261F69FC1FE3C81200EB00C3 /* ICEGoodsImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEGoodsImage.m; sourceTree = "<group>"; };
+		261F69FE1FE3CECC00EB00C3 /* ICEGoodsData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEGoodsData.h; sourceTree = "<group>"; };
+		261F69FF1FE3CECC00EB00C3 /* ICEGoodsData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEGoodsData.m; sourceTree = "<group>"; };
+		261F6A011FE3D93C00EB00C3 /* ICEGoodsItemViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEGoodsItemViewModel.h; sourceTree = "<group>"; };
+		261F6A021FE3D93C00EB00C3 /* ICEGoodsItemViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEGoodsItemViewModel.m; sourceTree = "<group>"; };
+		261F6A041FE3DBBA00EB00C3 /* ICEGoods+ICEAttributedString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ICEGoods+ICEAttributedString.h"; sourceTree = "<group>"; };
+		261F6A051FE3DBBA00EB00C3 /* ICEGoods+ICEAttributedString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ICEGoods+ICEAttributedString.m"; sourceTree = "<group>"; };
+		262707851FEDFCB400E36A7E /* ICETableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICETableViewController.h; sourceTree = "<group>"; };
+		262707861FEDFCB400E36A7E /* ICETableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICETableViewController.m; sourceTree = "<group>"; };
 		262F8C631FDFB0CE00D716BF /* SUGoodsData_17.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SUGoodsData_17.data; sourceTree = "<group>"; };
 		262F8C641FDFB0CE00D716BF /* SUGoodsData_5.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SUGoodsData_5.data; sourceTree = "<group>"; };
 		262F8C651FDFB0CE00D716BF /* SUGoodsData_9.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SUGoodsData_9.data; sourceTree = "<group>"; };
@@ -138,6 +164,10 @@
 		262F8CE61FDFE12F00D716BF /* ICEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEViewController.m; sourceTree = "<group>"; };
 		262F8CEB1FDFEE1900D716BF /* UIBarButtonItem+ICEExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ICEExtension.h"; sourceTree = "<group>"; };
 		262F8CEC1FDFEE1900D716BF /* UIBarButtonItem+ICEExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ICEExtension.m"; sourceTree = "<group>"; };
+		26493B8B1FEA590000BAB564 /* NSDate+ICEExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+ICEExtension.h"; sourceTree = "<group>"; };
+		26493B8C1FEA590000BAB564 /* NSDate+ICEExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ICEExtension.m"; sourceTree = "<group>"; };
+		26493B8E1FEA592600BAB564 /* NSDateFormatter+ICEExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+ICEExtension.h"; sourceTree = "<group>"; };
+		26493B8F1FEA592600BAB564 /* NSDateFormatter+ICEExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+ICEExtension.m"; sourceTree = "<group>"; };
 		264D9B131FE22F1E008F8B7E /* ICEGoodsViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEGoodsViewModel.h; sourceTree = "<group>"; };
 		264D9B141FE22F1E008F8B7E /* ICEGoodsViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEGoodsViewModel.m; sourceTree = "<group>"; };
 		264D9B161FE23332008F8B7E /* ICEProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEProgressHUD.h; sourceTree = "<group>"; };
@@ -155,6 +185,12 @@
 		2654FD0F1FE0CC3300E76731 /* ICEGoodsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEGoodsViewController.m; sourceTree = "<group>"; };
 		2673D91F1FE1274B008A4F30 /* ICELoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICELoginViewModel.h; sourceTree = "<group>"; };
 		2673D9201FE1274B008A4F30 /* ICELoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICELoginViewModel.m; sourceTree = "<group>"; };
+		268D58AA1FE91F5800E1C7E0 /* ICESearchViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICESearchViewModel.h; sourceTree = "<group>"; };
+		268D58AB1FE91F5800E1C7E0 /* ICESearchViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICESearchViewModel.m; sourceTree = "<group>"; };
+		26A85CDD1FEB99C400D33D6F /* NSAttributedString+ICESize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+ICESize.h"; sourceTree = "<group>"; };
+		26A85CDE1FEB99C400D33D6F /* NSAttributedString+ICESize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+ICESize.m"; sourceTree = "<group>"; };
+		26A85CE01FEB9FEB00D33D6F /* NSString+ICESize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ICESize.h"; sourceTree = "<group>"; };
+		26A85CE11FEB9FEB00D33D6F /* NSString+ICESize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ICESize.m"; sourceTree = "<group>"; };
 		5BAE6F6EE5AD71DDE6B92F5B /* Pods_ReactiveCocoaDemo_ReactiveCocoaDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveCocoaDemo_ReactiveCocoaDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		610B44158436DCF52E7BCF14 /* Pods_ReactiveCocoaDemo_ReactiveCocoaDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveCocoaDemo_ReactiveCocoaDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A8760AFBB2AF320E1F34F7C /* Pods-ReactiveCocoaDemo-ReactiveCocoaDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaDemo-ReactiveCocoaDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaDemo-ReactiveCocoaDemoUITests/Pods-ReactiveCocoaDemo-ReactiveCocoaDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -283,6 +319,14 @@
 				264D9B171FE23332008F8B7E /* ICEProgressHUD.m */,
 				264D9B2C1FE25E56008F8B7E /* NSString+ICEValidation.h */,
 				264D9B2D1FE25E56008F8B7E /* NSString+ICEValidation.m */,
+				26493B8E1FEA592600BAB564 /* NSDateFormatter+ICEExtension.h */,
+				26493B8F1FEA592600BAB564 /* NSDateFormatter+ICEExtension.m */,
+				26493B8B1FEA590000BAB564 /* NSDate+ICEExtension.h */,
+				26493B8C1FEA590000BAB564 /* NSDate+ICEExtension.m */,
+				26A85CE01FEB9FEB00D33D6F /* NSString+ICESize.h */,
+				26A85CE11FEB9FEB00D33D6F /* NSString+ICESize.m */,
+				26A85CDD1FEB99C400D33D6F /* NSAttributedString+ICESize.h */,
+				26A85CDE1FEB99C400D33D6F /* NSAttributedString+ICESize.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -293,8 +337,12 @@
 				262F8C5A1FDFB04700D716BF /* BaseClass */,
 				2673D91F1FE1274B008A4F30 /* ICELoginViewModel.h */,
 				2673D9201FE1274B008A4F30 /* ICELoginViewModel.m */,
+				261F6A011FE3D93C00EB00C3 /* ICEGoodsItemViewModel.h */,
+				261F6A021FE3D93C00EB00C3 /* ICEGoodsItemViewModel.m */,
 				264D9B131FE22F1E008F8B7E /* ICEGoodsViewModel.h */,
 				264D9B141FE22F1E008F8B7E /* ICEGoodsViewModel.m */,
+				268D58AA1FE91F5800E1C7E0 /* ICESearchViewModel.h */,
+				268D58AB1FE91F5800E1C7E0 /* ICESearchViewModel.m */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -316,14 +364,6 @@
 			isa = PBXGroup;
 			children = (
 				262F8C5C1FDFB04700D716BF /* BaseClass */,
-				262F8CD41FDFC76500D716BF /* ICENavigationController.h */,
-				262F8CD51FDFC76500D716BF /* ICENavigationController.m */,
-				262F8CDA1FDFDD9F00D716BF /* ICENavigationControllerStack.h */,
-				262F8CDB1FDFDD9F00D716BF /* ICENavigationControllerStack.m */,
-				262F8CE51FDFE12F00D716BF /* ICEViewController.h */,
-				262F8CE61FDFE12F00D716BF /* ICEViewController.m */,
-				262F8CE21FDFE0CB00D716BF /* ICEViewControllerAnimatedTransition.h */,
-				262F8CE31FDFE0CB00D716BF /* ICEViewControllerAnimatedTransition.m */,
 				2654FD0B1FE0CBDB00E76731 /* ICELoginViewController.h */,
 				2654FD0C1FE0CBDB00E76731 /* ICELoginViewController.m */,
 				2654FD0E1FE0CC3300E76731 /* ICEGoodsViewController.h */,
@@ -335,6 +375,16 @@
 		262F8C5C1FDFB04700D716BF /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				262F8CD41FDFC76500D716BF /* ICENavigationController.h */,
+				262F8CD51FDFC76500D716BF /* ICENavigationController.m */,
+				262F8CDA1FDFDD9F00D716BF /* ICENavigationControllerStack.h */,
+				262F8CDB1FDFDD9F00D716BF /* ICENavigationControllerStack.m */,
+				262F8CE21FDFE0CB00D716BF /* ICEViewControllerAnimatedTransition.h */,
+				262F8CE31FDFE0CB00D716BF /* ICEViewControllerAnimatedTransition.m */,
+				262F8CE51FDFE12F00D716BF /* ICEViewController.h */,
+				262F8CE61FDFE12F00D716BF /* ICEViewController.m */,
+				262707851FEDFCB400E36A7E /* ICETableViewController.h */,
+				262707861FEDFCB400E36A7E /* ICETableViewController.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -343,6 +393,16 @@
 			isa = PBXGroup;
 			children = (
 				262F8C5E1FDFB04700D716BF /* BaseClass */,
+				261F69F51FE3C7BF00EB00C3 /* ICEBanner.h */,
+				261F69F61FE3C7BF00EB00C3 /* ICEBanner.m */,
+				261F69F81FE3C80000EB00C3 /* ICEGoods.h */,
+				261F69F91FE3C80000EB00C3 /* ICEGoods.m */,
+				261F69FB1FE3C81200EB00C3 /* ICEGoodsImage.h */,
+				261F69FC1FE3C81200EB00C3 /* ICEGoodsImage.m */,
+				261F69FE1FE3CECC00EB00C3 /* ICEGoodsData.h */,
+				261F69FF1FE3CECC00EB00C3 /* ICEGoodsData.m */,
+				261F6A041FE3DBBA00EB00C3 /* ICEGoods+ICEAttributedString.h */,
+				261F6A051FE3DBBA00EB00C3 /* ICEGoods+ICEAttributedString.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -624,7 +684,15 @@
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+				"${BUILT_PRODUCTS_DIR}/YYAsyncLayer/YYAsyncLayer.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework",
+				"${BUILT_PRODUCTS_DIR}/YYDispatchQueuePool/YYDispatchQueuePool.framework",
+				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKeyboardManager/YYKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
+				"${BUILT_PRODUCTS_DIR}/YYWebImage/YYWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -638,7 +706,15 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYAsyncLayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCategories.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYDispatchQueuePool.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -692,7 +768,15 @@
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+				"${BUILT_PRODUCTS_DIR}/YYAsyncLayer/YYAsyncLayer.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework",
+				"${BUILT_PRODUCTS_DIR}/YYDispatchQueuePool/YYDispatchQueuePool.framework",
+				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKeyboardManager/YYKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
+				"${BUILT_PRODUCTS_DIR}/YYWebImage/YYWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -706,7 +790,15 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYAsyncLayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCategories.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYDispatchQueuePool.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -748,7 +840,15 @@
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+				"${BUILT_PRODUCTS_DIR}/YYAsyncLayer/YYAsyncLayer.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework",
+				"${BUILT_PRODUCTS_DIR}/YYDispatchQueuePool/YYDispatchQueuePool.framework",
+				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKeyboardManager/YYKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
+				"${BUILT_PRODUCTS_DIR}/YYWebImage/YYWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -762,7 +862,15 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYAsyncLayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCategories.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYDispatchQueuePool.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -809,27 +917,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				261F6A001FE3CECC00EB00C3 /* ICEGoodsData.m in Sources */,
 				2654FD0D1FE0CBDB00E76731 /* ICELoginViewController.m in Sources */,
+				261F69F71FE3C7BF00EB00C3 /* ICEBanner.m in Sources */,
 				262F8CED1FDFEE1900D716BF /* UIBarButtonItem+ICEExtension.m in Sources */,
 				264D9B2E1FE25E56008F8B7E /* NSString+ICEValidation.m in Sources */,
+				26493B901FEA592600BAB564 /* NSDateFormatter+ICEExtension.m in Sources */,
 				264D9B181FE23332008F8B7E /* ICEProgressHUD.m in Sources */,
 				264D9B1E1FE2510C008F8B7E /* NSError+ICEExtension.m in Sources */,
 				264D9B211FE252E0008F8B7E /* UIFont+ICEExtension.m in Sources */,
 				262F8CDC1FDFDD9F00D716BF /* ICENavigationControllerStack.m in Sources */,
 				261D0FE21FDE7FA700487F17 /* ViewController.m in Sources */,
+				26493B8D1FEA590000BAB564 /* NSDate+ICEExtension.m in Sources */,
+				261F69FA1FE3C80000EB00C3 /* ICEGoods.m in Sources */,
 				261F69F41FE3BF4C00EB00C3 /* ICEModel.m in Sources */,
 				2673D9211FE1274B008A4F30 /* ICELoginViewModel.m in Sources */,
 				262F8CD61FDFC76500D716BF /* ICENavigationController.m in Sources */,
 				261D0FED1FDE7FA700487F17 /* main.m in Sources */,
 				261F69F11FE3B19400EB00C3 /* ICETableViewModel.m in Sources */,
+				26A85CDF1FEB99C400D33D6F /* NSAttributedString+ICESize.m in Sources */,
 				2654FD101FE0CC3300E76731 /* ICEGoodsViewController.m in Sources */,
 				262F8CE71FDFE12F00D716BF /* ICEViewController.m in Sources */,
+				268D58AC1FE91F5800E1C7E0 /* ICESearchViewModel.m in Sources */,
 				262F8CE41FDFE0CB00D716BF /* ICEViewControllerAnimatedTransition.m in Sources */,
+				261F69FD1FE3C81200EB00C3 /* ICEGoodsImage.m in Sources */,
 				261D0FDF1FDE7FA700487F17 /* AppDelegate.m in Sources */,
 				262F8CD91FDFDABE00D716BF /* UINavigationItem+ICEBackBarButtonItem.m in Sources */,
+				262707871FEDFCB400E36A7E /* ICETableViewController.m in Sources */,
+				261F6A031FE3D93C00EB00C3 /* ICEGoodsItemViewModel.m in Sources */,
 				264D9B151FE22F1E008F8B7E /* ICEGoodsViewModel.m in Sources */,
+				26A85CE21FEB9FEB00D33D6F /* NSString+ICESize.m in Sources */,
 				262F8CE11FDFDEB900D716BF /* ICEViewModel.m in Sources */,
 				262F8C941FDFB1B400D716BF /* ICEConstant.m in Sources */,
+				261F6A061FE3DBBA00EB00C3 /* ICEGoods+ICEAttributedString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
